@@ -6,7 +6,7 @@ import port4 from '../../public/images/port4.png';
 
 const rotatingImages = [port1, port2, port3, port4];
 
-const PortfolioComp = () => {
+export default function PortfolioComp() {
     return (
         <div
             className="bg-local"
@@ -138,5 +138,3 @@ const PortfolioComp = () => {
         </div>
     )
 }
-
-export default PortfolioComp;

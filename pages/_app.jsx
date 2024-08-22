@@ -2,7 +2,6 @@ import '../styles/globals.css';
 import { AnimatePresence } from 'framer-motion';
 import DefaultLayout from '../components/layout/DefaultLayout';
 import UseScrollToTop from '../hooks/useScrollToTop';
-import { Orbitron } from 'next/font/google';
 import '@fontsource/open-sans';
 import '@fontsource/orbitron';
 

@@ -1,5 +1,5 @@
 import React from "react";
-const Connect = () => {
+export default function Connect () {
   return (
     <div
       className="h-[auto] bg-cover orbitron "
@@ -103,4 +103,3 @@ const Connect = () => {
     </div>
   );
 };
-export default Connect;

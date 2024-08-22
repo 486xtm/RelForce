@@ -4,7 +4,7 @@ import who1 from "../../public/images/who-1.png";
 import who2 from "../../public/images/who-2.png";
 import who3 from "../../public/images/who-3.png";
 
-const Who = () => {
+export default function Who() {
   return (
     <div
       className="h-[auto] bg-cover orbitron "
@@ -115,4 +115,3 @@ const Who = () => {
     </div>
   );
 };
-export default Who;

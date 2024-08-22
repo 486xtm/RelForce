@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const ClientsComp = () => {
+export default function ClientsComp () {
     return (
         <div
             className="bg-local lg:w-full w-[70%] lg:rounded-none rounded-[24px] mx-auto"
@@ -75,5 +75,3 @@ const ClientsComp = () => {
          </div>
     )
 }
-
-export default ClientsComp;

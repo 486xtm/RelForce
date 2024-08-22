@@ -2,7 +2,7 @@ import Image from "next/image";
 import back from "../../public/images/back2.png";
 import mobile from "../../public/images/mobile.png";
 import { useState } from "react";
-const Experise = () => {
+export default function Experise  () {
   const [isHovered1, setIsHovered1] = useState(false);
   const [isHovered2, setIsHovered2] = useState(false);
   const [isHovered3, setIsHovered3] = useState(false);
@@ -287,4 +287,3 @@ const Experise = () => {
     </div>
   );
 };
-export default Experise;

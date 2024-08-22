@@ -4,7 +4,6 @@
 
 html,
 body {
-  @apply min-h-screen;
   background-color: #1e1e1e;
   padding: 0;
   margin: 0;
@@ -65,8 +64,6 @@ a {
 
 /* Scroll to top style */
 .scrollToTop {
-  @apply bg-indigo-600;
-  @apply text-white;
   position: fixed;
   width: 100%;
   align-items: center;
