@@ -11,7 +11,7 @@ import '@fontsource/orbitron';
 function MyApp({ Component, pageProps }) {
 	return (
 		<AnimatePresence>
-			<div className={`transition duration-300 bg-primary-dark`}>
+			<div className={`transition duration-300`}>
 				<DefaultLayout>
 					<Component {...pageProps} />
 				</DefaultLayout>

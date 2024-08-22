@@ -1,14 +1,12 @@
 import Link from 'next/link';
 
-const LinkButton = ({ linkname, title, title1, footer, newop }) => {
-  let fontSize = footer === "1" ? "14px" : "17px";
-  let fontWeight = footer === "1" ? 400 : 500; // Adjust as needed
+const LinkButton = ({ phone, linkname, title, title1, footer, newop }) => {
+  let fontSize = phone ? "17px" : "20px";
 
   return (
     <div
       style={{
         fontFamily: "Helvetica, Arial, sans-serif",
-        fontWeight: fontWeight,
         fontSize: fontSize,
         color: "#FFFFFF",
         lineHeight: "20px",
@@ -58,3 +56,4 @@ const LinkButton = ({ linkname, title, title1, footer, newop }) => {
 };
 
 export default LinkButton;
+//button link

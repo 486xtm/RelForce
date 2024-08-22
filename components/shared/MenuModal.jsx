@@ -38,6 +38,7 @@ const MenuModal = ({ showMenu, toggleMenu }) => {
             <button
               className="
 								orbitron
+
 								font-medium
 								text-[17px]
 								text-[#FFF]
@@ -113,23 +114,23 @@ const MenuModal = ({ showMenu, toggleMenu }) => {
           (title, index) => (
             <>
               {title === "Home" ? (
-                <Link href={"projects"} aria-label={title}>
+                <Link href={""} aria-label={title}>
                   <HeaderButton title={title} index={index} />
                 </Link>
               ) : title === "Services" ? (
-                <Link href={"partners"} aria-label={title}>
+                <Link href={"services"} aria-label={title}>
                   <HeaderButton title={title} index={index} />
                 </Link>
               ) : title === "Portfolio" ? (
-                <Link href={"company"} aria-label={title}>
+                <Link href={"portfolio"} aria-label={title}>
                   <HeaderButton title={title} index={index} />
                 </Link>
               ) : title === "Team" ? (
-                <Link href={"opportunities"} aria-label={title}>
+                <Link href={"team"} aria-label={title}>
                   <HeaderButton title={title} index={index} />
                 </Link>
               ) : title === "Contact" ? (
-                <Link href={""} aria-label={title}>
+                <Link href={"contact"} aria-label={title}>
                   <HeaderButton title={title} index={index} />
                 </Link>
               ) : (

@@ -11,13 +11,13 @@ function PagesMetaHead({ title, keywords, description }) {
 			<meta name="description" content={description} />
 			<meta charSet="utf-8" />
 			<link rel="icon" href="/images/logo-light.svg" />
-			<title>Boston Innovations Corporation</title>
+			<title>relforce</title>
 		</Head>
 	);
 }
 
 PagesMetaHead.defaultProps = {
-	title: 'Boston Innovations Corporation',
+	title: 'relforce',
 	keywords: 'next.js, react, web, ui',
 	keywords: 'Simple and multi-page next.js and react application',
 };

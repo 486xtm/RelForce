@@ -46,12 +46,11 @@ const DefaultLayout = ({ children }) => {
 	}, []);
 	
 	return (
-		<div className='min-h-screen bg-primary-dark' style={{padding: 0, margin: 0, fontFamily: 'Helvetica, Arial, sans-serif'}}>
+		<div className='min-h-screen ' style={{padding: 0, margin: 0}}>
 			<PagesMetaHead />
 				{isLoading ? (
 					<div class="loading-container flex justify-center items-center h-screen">
 						<Load/>
-						{/* <Image src="/images/loadmjr.svg" className='sm:w-[200px] sm:h-[200px] w-[100px] h-[100px]' alt="Loading" /> */}
 					</div>
 					) : (
 					<>

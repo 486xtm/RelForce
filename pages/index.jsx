@@ -1,23 +1,26 @@
 import PagesMetaHead from "../components/PagesMetaHead";
 import AppHeader from "../components/shared/AppHeader";
-import Expertise from '../components/Home/Expertise';
+import Expertise from "../components/home/Expertise";
+import Who from '../components/home/Who'
+import Connect from '../components/home/Connect';
+import ClientsComp from "../components/home/ClientsComp";
 export default function Home() {
   return (
     <div>
       <PagesMetaHead title="Home" />
-      <div
-        className="bg-contain"
-        style={{
-          backgroundImage: `url(/images/back1.png)`,
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-        }}
-      >
+      <div>
         <div className="container mx-auto">
           <AppHeader />
         </div>
-        <div className="flex justify-center items-center h-[90vh] mt-[-10vh] w-full">
-          <div className="text-center">
+        <div
+          className="flex justify-center items-center h-[90vh] mt-[-150px] pt-[150px] w-full"
+          style={{
+            backgroundImage: `url(/images/back1.png)`,
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+          }}
+        >
+          <div className="text-center container">
             <span className="orbitron text-[#FE5A36] leading-[100%] font-bold text-[36px] md:text-[75px] lg:text-[100px]">
               Your Vision,
             </span>
@@ -94,63 +97,68 @@ export default function Home() {
           </div>
         </div>
         <div
-          className="lg:flex orbitron lg:py-10 lg:px-0 px-10"
+          className="lg:flex orbitron lg:py-10 lg:px-0 px-10 "
           style={{
             background:
               "linear-gradient(133.47deg, rgba(11, 10, 10, 0) 34.97%, #0B0A0A 111.88%), #1E1E1E",
           }}
         >
-          <div className="lg:w-1/3 w-full justify-center items-center p-[40px] h-[250px] flex flex-col">
-            <div
-              className="text-[100px] leading-[100%] font-bold text-transparent "
-              style={{
-                background:
-                  "linear-gradient(54.35deg, #FF3D12 0%, #FF7253 79.88%), #FFFFFF",
-									backgroundClip: "text"
-              }}
-            >
-              200+
+          <div className="container mx-auto lg:flex orbitron lg:py-10 lg:px-0 px-10 ">
+            <div className="lg:w-1/3 w-full justify-center items-center p-[40px] h-[250px] flex flex-col">
+              <div
+                className="text-[100px] leading-[100%] font-bold text-transparent "
+                style={{
+                  background:
+                    "linear-gradient(54.35deg, #FF3D12 0%, #FF7253 79.88%), #FFFFFF",
+                  backgroundClip: "text",
+                }}
+              >
+                200+
+              </div>
+              <br />
+              <div className="font-bold text-[25px] text-center leading-[100%] text-[white]">
+                Websites Completed
+              </div>
             </div>
-            <br />
-            <div className="font-bold text-[25px] text-center leading-[100%] text-[white]">
-              Websites Completed
+            <div className="lg:w-1/3 w-full lg:border-x-2 lg:border-y-0 border-y-2 border-[#464646] justify-center items-center p-[40px] h-[250px] flex flex-col">
+              <div
+                className="text-[100px]  leading-[100%] font-bold overflow-hidden text-transparent"
+                style={{
+                  background:
+                    "linear-gradient(54.35deg, #FF3D12 0%, #FF7253 79.88%), #FFFFFF",
+                  backgroundClip: "text",
+                }}
+              >
+                500+
+              </div>
+              <br />
+              <div className="font-bold text-[25px] text-center leading-[100%] text-[white]">
+                Websites Completed
+              </div>
             </div>
-          </div>
-          <div className="lg:w-1/3 w-full lg:border-x-2 lg:border-y-0 border-y-2 border-[#464646] justify-center items-center p-[40px] h-[250px] flex flex-col">
-            <div
-              className="text-[100px]  leading-[100%] font-bold overflow-hidden text-transparent"
-              style={{
-                background:
-                  "linear-gradient(54.35deg, #FF3D12 0%, #FF7253 79.88%), #FFFFFF",
-								backgroundClip: "text"
-              }}
-            >
-              500+
-            </div>
-            <br />
-            <div className="font-bold text-[25px] text-center leading-[100%] text-[white]">
-              Websites Completed
-            </div>
-          </div>
-          <div className="lg:w-1/3 w-full justify-center items-center p-[40px] h-[250px] flex flex-col">
-            <div
-              className="text-[100px] leading-[100%] font-bold text-transparent"
-              style={{
-                background:
-                  "linear-gradient(54.35deg, #FF3D12 0%, #FF7253 79.88%), #FFFFFF",
-								backgroundClip: "text"
-              }}
-            >
-              120+
-            </div>
-            <br />
-            <div className="font-bold text-[25px] text-center leading-[100%] text-[white]">
-              Websites Completed
+            <div className="lg:w-1/3 w-full justify-center items-center p-[40px] h-[250px] flex flex-col">
+              <div
+                className="text-[100px] leading-[100%] font-bold text-transparent"
+                style={{
+                  background:
+                    "linear-gradient(54.35deg, #FF3D12 0%, #FF7253 79.88%), #FFFFFF",
+                  backgroundClip: "text",
+                }}
+              >
+                120+
+              </div>
+              <br />
+              <div className="font-bold text-[25px] text-center leading-[100%] text-[white]">
+                Websites Completed
+              </div>
             </div>
           </div>
         </div>
+        <Expertise />
+        <ClientsComp/>
+        <Who/>
+        <Connect/>
       </div>
-      <Expertise/>
     </div>
   );
 }

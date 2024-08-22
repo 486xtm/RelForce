@@ -4,94 +4,125 @@
 
 html,
 body {
-	@apply min-h-screen bg-black-blue;
-	padding: 0;
-	margin: 0;
+  @apply min-h-screen;
+  background-color: #1e1e1e;
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica, Arial, sans-serif";
 }
 
 a {
-	color: inherit;
-	text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .custom-scrollbar {
-	scrollbar-width: thin;
-	scrollbar-color: rgba(0, 0, 0, 0.5) transparent;
-  }
-  
-  /* Firefox */
-  .custom-scrollbar::-webkit-scrollbar {
-	width: 12px;
-  }
-  
-  .custom-scrollbar::-webkit-scrollbar-track {
-	background: transparent;
-  }
-  
-  .custom-scrollbar::-webkit-scrollbar-thumb {
-	background-color: rgba(0, 0, 0, 0.5);
-	border-radius: 6px;
-	border: 3px solid transparent;
-	background-clip: padding-box;
-  }
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.5) transparent;
+}
 
-  .custom-button {
-	font-family: "Helvetica, Arial, sans-serif";
-	font-weight: 500;
-	font-size: 17px;
-	color: #F8F8F8;
-	line-height: 20px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background: #2596BE;
-	border-radius: 20px;
-	gap: 10px;
-	width: auto;
-	transition: background-color 0.3s ease; /* Smooth transition for the background color */
-  }
-  
-  .custom-button:hover {
-	background-color: #165e80; /* Slightly darker shade of the original background color */
-  }
+/* Firefox */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 12px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  border: 3px solid transparent;
+  background-clip: padding-box;
+}
+
+.custom-button {
+  font-family: "Helvetica, Arial, sans-serif";
+  font-weight: 500;
+  font-size: 17px;
+  color: #f8f8f8;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2596be;
+  border-radius: 20px;
+  gap: 10px;
+  width: auto;
+  transition: background-color 0.3s ease; /* Smooth transition for the background color */
+}
+
+.custom-button:hover {
+  background-color: #165e80; /* Slightly darker shade of the original background color */
+}
 
 /* Fonts */
 
 /* Scroll to top style */
 .scrollToTop {
-	@apply bg-indigo-600;
-	@apply text-white;
-	position: fixed;
-	width: 100%;
-	align-items: center;
-	height: 20px;
-	justify-content: center;
-	z-index: 999;
-	cursor: pointer;
-	animation: fadeIn 0.3s;
-	transition: opacity 0.4s;
-	opacity: 1;
+  @apply bg-indigo-600;
+  @apply text-white;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  height: 20px;
+  justify-content: center;
+  z-index: 999;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 1;
 }
 
 .scrollToTop:hover {
-	opacity: 1;
+  opacity: 1;
 }
 
 @keyframes fadeIn {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 0.5;
-	}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
 }
 .open-sans {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .orbitron {
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
+}
+.expertise {
+  background: linear-gradient(
+    180deg,
+    rgba(101, 101, 101, 0.32) 0%,
+    rgba(108, 108, 108, 0.2) 100%
+  );
+  border: 2px solid transparent;
+  border-image-source: linear-gradient(to right, black, grey);
+  border-image-slice: 1;
+  border-image-repeat: stretch;
+}
+.expertise:hover {
+	background: linear-gradient(180deg, rgba(104, 63, 63, 0.32) 0%, rgba(238, 56, 15, 0.09) 100%);
+	box-shadow: 0px 87px 35px rgba(255, 100, 66, 0.01), 0px 49px 29px rgba(255, 100, 66, 0.05), 0px 22px 22px rgba(238, 56, 15, 0.09), 0px 5px 12px rgba(255, 100, 66, 0.1);
+	backdrop-filter: blur(28px);
+	border-radius: 12px;
+  border: 2px solid transparent;
+  border-image-source: linear-gradient(to right, black, #FF7253);
+  border-image-slice: 1;
+  border-image-repeat: stretch;
+}
+.connect-back {
+  background: linear-gradient(
+    180deg,
+    rgba(101, 101, 101, 0.32) 0%,
+    rgba(108, 108, 108, 0.2) 100%
+  );
+  border: 2px solid grey;
 }
