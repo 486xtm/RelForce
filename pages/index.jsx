@@ -1,10 +1,12 @@
 import PagesMetaHead from "../components/PagesMetaHead";
 import AppHeader from "../components/shared/AppHeader";
+import Expertise from '../components/Home/Expertise';
 export default function Home() {
   return (
     <div>
       <PagesMetaHead title="Home" />
       <div
+        className="bg-contain"
         style={{
           backgroundImage: `url(/images/back1.png)`,
           backgroundRepeat: "no-repeat",
@@ -110,7 +112,7 @@ export default function Home() {
               200+
             </div>
             <br />
-            <div className="font-bold text-[25px] leading-[100%] text-[white]">
+            <div className="font-bold text-[25px] text-center leading-[100%] text-[white]">
               Websites Completed
             </div>
           </div>
@@ -126,7 +128,7 @@ export default function Home() {
               500+
             </div>
             <br />
-            <div className="font-bold text-[25px] leading-[100%] text-[white]">
+            <div className="font-bold text-[25px] text-center leading-[100%] text-[white]">
               Websites Completed
             </div>
           </div>
@@ -142,12 +144,13 @@ export default function Home() {
               120+
             </div>
             <br />
-            <div className="font-bold text-[25px] leading-[100%] text-[white]">
+            <div className="font-bold text-[25px] text-center leading-[100%] text-[white]">
               Websites Completed
             </div>
           </div>
         </div>
       </div>
+      <Expertise/>
     </div>
   );
 }
