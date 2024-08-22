@@ -39,7 +39,7 @@ const Footer = () => {
             </div>
             <div className="flex mb-8 text-[16px]">
               <span className={phone ? 'text-center' : ''}>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s.
               </span>
             </div>
             <div className="flex flex-row items-center justify-between w-full mb-6 lg:mb-0">
