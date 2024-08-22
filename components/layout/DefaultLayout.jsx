@@ -1,7 +1,4 @@
-import { useState, useEffect } from 'react';
 import PagesMetaHead from '../PagesMetaHead';
-import period from '../../data/const';
-import Image from 'next/image';
 import Footer from '../shared/Footer';
 
 const Load = () => {
@@ -36,31 +33,15 @@ const Load = () => {
   }
 
 const DefaultLayout = ({ children }) => {
-	const [isLoading, setIsLoading] = useState(false);
-
-	useEffect(() => {
-	  const timer = setTimeout(() => {
-		setIsLoading(false);
-	  }, period);
-	  return () => clearTimeout(timer);
-	}, []);
 	
 	return (
 		<div className='min-h-screen ' style={{padding: 0, margin: 0}}>
 			<PagesMetaHead />
-				{isLoading ? (
-					<div class="loading-container flex justify-center items-center h-screen">
-						<Load/>
-					</div>
-					) : (
-					<>
+				
 					<div>
 						{children}
 					</div>
 					<Footer />
-					</>
-					)
-				}
 		</div>
 	);
 };
