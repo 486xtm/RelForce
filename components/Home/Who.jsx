@@ -1,11 +1,9 @@
 import Image from "next/image";
-import back from "../../public/images/back4.png";
 import who from "../../public/images/who_1.png";
 import who1 from "../../public/images/who-1.png";
 import who2 from "../../public/images/who-2.png";
 import who3 from "../../public/images/who-3.png";
 
-import { useState } from "react";
 const Who = () => {
   return (
     <div
