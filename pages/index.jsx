@@ -4,6 +4,7 @@ import Expertise from "../components/home/Expertise";
 import Who from '../components/home/Who'
 import Connect from '../components/home/Connect';
 import ClientsComp from "../components/home/ClientsComp";
+import PortfolioComp from "../components/home/PortfolioComp";
 export default function Home() {
   return (
     <div>
@@ -156,6 +157,7 @@ export default function Home() {
         </div>
         <Expertise />
         <ClientsComp/>
+        <PortfolioComp/>
         <Who/>
         <Connect/>
       </div>

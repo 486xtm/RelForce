@@ -14,6 +14,8 @@ const Who = () => {
         backgroundImage: `url(/images/back4.png)`,
       }}
     >
+          <div className="absolute w-[500px] h-[500px] bg-[#FE5A36] blur-[250px] z-10 whoblur"
+          />
       <div className="py-[150px] container mx-auto">
         <div className="flex lg:flex-row flex-col-reverse gap-[50px]">
           <div className="w-full ">
@@ -85,21 +87,7 @@ const Who = () => {
         </div>
         <div className="flex lg:flex-row flex-col lg:ml-[100px] lg:-mt-[200px] xl:-mt-[250px] 2xl:-mt-[280px]">
           <div className="lg:w-1/2 w-full flex">
-              {/* <div className="w-1/2">
-
-              </div>
-              <div className="w-1/2 text-[white] px-[32px] py-[11px]"
-                style={{
-                  background: "linear-gradient(54.35deg, #FF3D12 0%, #FF7253 79.88%), #292120",
-                  border: '1px solid #FFFFFF',
-                  borderRadius: '12px',
-                }}  
-              >
-                <span className="font-bold text-[20px]">Relforce:</span><br/>
-                <span className="font-bold text-[45px]">Driving</span><br/>
-                <span className="font-bold text-[45px]">Digital</span><br/>
-                <span className="font-bold text-[45px]">Success</span><br/>
-              </div> */}
+  
           </div>
           <div className="lg:w-1/2 w-full space-y-3">
               <div className="flex lg:flex-row flex-col items-center gap-5">

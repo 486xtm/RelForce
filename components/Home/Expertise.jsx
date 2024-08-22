@@ -14,7 +14,7 @@ const Experise = () => {
         backgroundImage: `url(/images/back2.png)`,
       }}
     >
-      <div className="pt-[150px] container mx-auto">
+      <div className="py-[150px] container mx-auto">
         <div className="text-center">
           <button className="bg-[#1E1E1E] text-center mb-5 px-[36px] py-[10px] text-[white] rounded-[5px]">
             Services

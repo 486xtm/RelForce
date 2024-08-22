@@ -126,3 +126,6 @@ a {
   );
   border: 2px solid grey;
 }
+.whoblur {
+  margin-left: calc(100% - 200px);
+}
