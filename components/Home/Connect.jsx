@@ -21,10 +21,10 @@ const Connect = () => {
               backgroundClip: "text",
             }}
           >
-            Let's Connect
+            Let&apos;s Connect
           </div>
           <div className="open-sans text-[24px] text-white">
-            We'd love to hear from you! Fill out the form below or contact us
+            We&apos;d love to hear from you! Fill out the form below or contact us
             directly
           </div>
         </div>

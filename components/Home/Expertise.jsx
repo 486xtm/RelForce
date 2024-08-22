@@ -43,7 +43,7 @@ const Experise = () => {
                 <div className={`${ isHovered1 ? "text-[13px]":"text-[10px]"} open-sans`}>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. <br />
-                  Lorem Ipsum has been the industry's standard dummy text ever
+                  Lorem Ipsum has been the industry&apos;s standard dummy text ever
                   since the 1500s.
                 </div>
               </div>
@@ -106,7 +106,7 @@ const Experise = () => {
                 <div className={`${ isHovered2 ? "text-[13px]":"text-[10px]"} open-sans`}>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. <br />
-                  Lorem Ipsum has been the industry's standard dummy text ever
+                  Lorem Ipsum has been the industry&apos;s standard dummy text ever
                   since the 1500s.
                 </div>
               </div>
@@ -169,7 +169,7 @@ const Experise = () => {
                 <div className={`${ isHovered3 ? "text-[13px]":"text-[10px]"} open-sans`}>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. <br />
-                  Lorem Ipsum has been the industry's standard dummy text ever
+                  Lorem Ipsum has been the industry&apos;s standard dummy text ever
                   since the 1500s.
                 </div>
               </div>
@@ -228,7 +228,7 @@ const Experise = () => {
                 <div className={`${ isHovered4 ? "text-[13px]":"text-[10px]"} open-sans`}>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. <br />
-                  Lorem Ipsum has been the industry's standard dummy text ever
+                  Lorem Ipsum has been the industry&apos;s standard dummy text ever
                   since the 1500s.
                 </div>
               </div>

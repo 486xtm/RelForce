@@ -41,7 +41,7 @@ const PortfolioComp = () => {
                         Our Work Speaks<br />Louder Than Words
                     </div>
                     <div className="px-10 lg:px-0 flex w-full lg:w-[40%] lg:text-left text-center text-[8px] lg:text-[20px] open-sans text-white">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                     </div>
                 </div>
                 <div className="mb-10 rotating-images-container">
