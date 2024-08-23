@@ -12,7 +12,7 @@ function AppHeader() {
 	}
 
 	return (
-		<div className="z-10 block px-5 my-10 lg:max-w-screen-xl lg:flex lg:justify-between lg:items-center">
+		<div className="z-10 block px-5 py-10 lg:max-w-screen-xl lg:flex lg:justify-between lg:items-center">
 			<MenuModal toggleMenu={toggleMenu} showMenu={showMenu} />
 			<div className="items-center justify-center hidden p-5 m-0 mt-5 shadow-lg font-general-medium lg:ml-4 lg:mt-3 lg:flex lg:p-0 lg:shadow-none">
 				<LinkButton linkname={"/"} title={"Home"} />

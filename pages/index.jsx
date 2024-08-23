@@ -1,10 +1,10 @@
 import PagesMetaHead from "../components/PagesMetaHead";
 import AppHeader from "../components/shared/AppHeader";
-import Expertise from "../components/home/Expertise";
-import Who from '../components/home/Who'
-import Connect from '../components/home/Connect';
-import ClientsComp from "../components/home/ClientsComp";
-import PortfolioComp from "../components/home/PortfolioComp";
+import Expertise from "../components/Home/Expertise";
+import Who from '../components/Home/Who'
+import Connect from '../components/Home/Connect';
+import ClientsComp from "../components/Home/ClientsComp";
+import PortfolioComp from "../components/Home/PortfolioComp";
 export default function Home() {
   return (
     <div>
@@ -31,7 +31,7 @@ export default function Home() {
             </span>
             <br />
             <br />
-            <span className="lg:text-[25px] md:text-[20px] text-[14px] open-sans leading-[44px] w-[662px] h-[88px] text-[white]">
+            <span className="lg:text-[25px] md:text-[20px] text-[14px] open-sans leading-[44px] text-[white]">
               We create beautiful and functional websites <br />
               for businesses of all sizes.
             </span>

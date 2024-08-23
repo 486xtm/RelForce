@@ -9,11 +9,13 @@ export default function Experise  () {
   const [isHovered4, setIsHovered4] = useState(false);
   return (
     <div
-      className="h-[auto] bg-cover orbitron "
+      className="bg-cover orbitron "
       style={{
         backgroundImage: `url(/images/back2.png)`,
       }}
     >
+      <div className="lg:block hidden -ml-[10%] mt-[100px] absolute w-[20%] h-[200px] bg-[#FE5A36] blur-[150px] "
+      />
       <div className="lg:py-[150px] py-[75px] container mx-auto">
         <div className="text-center">
           <button className="bg-[#1E1E1E] text-center mb-5 px-[36px] py-[10px] text-[white] rounded-[5px]">
