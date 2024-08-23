@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-export default ({image,title, name}) => {
+export default function Photo ({image,title, name}) => {
   return (
     <div>
       <Image
