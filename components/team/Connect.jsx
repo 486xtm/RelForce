@@ -15,7 +15,7 @@ export default function TeamContact() {
           <br />
           <br />
           <span className="lg:text-[25px] md:text-[20px] text-[14px] open-sans leading-[44px] text-[white]">
-          We'd love to hear from you! Fill out the form below or contact us directly.
+          We&apos;d love to hear from you! Fill out the form below or contact us directly.
           </span>{" "}
           <br />
           <button
