@@ -17,11 +17,11 @@ export default function Who() {
         <div className="flex lg:flex-row flex-col-reverse gap-[50px]">
           <div className="w-full items-center flex flex-col ">
             <div className="lg:hidden block absolute w-[250px] h-[250px] bg-[#FE5A36] blur-[100px]  whoblur" />
-            <Image className="lg:w-full w-4/5 mx-auto " src={who} />
+            <Image className="lg:w-full w-4/5 mx-auto relative " src={who} />
           </div>
           <div className="w-full itmes-center justify-center space-y-5 text-center lg:text-left lg:mt-[50px]">
             <div
-              className="2xl:text-[75px] xl:text-[60px] lg:text-[40px]  leading-[100%] font-bold text-transparent "
+              className="2xl:text-[75px] xl:text-[60px] lg:text-[40px] text-[24px] leading-[100%] font-bold text-transparent "
               style={{
                 background:
                   "linear-gradient(54.35deg, #FF3D12 0%, #FF7253 79.88%), #FFFFFF",
@@ -30,7 +30,7 @@ export default function Who() {
             >
               Who We Are
             </div>
-            <div className="open-sans text-[white] 2xl:text-[16px] xl:text-[14px] lg:text-[12px]">
+            <div className="open-sans text-[white] 2xl:text-[16px] xl:text-[14px] lg:text-[12px] text-[8px]">
               We are relforce, a passionate team of digital craftsmen dedicated
               to creating exceptional online experiences. Born out of a shared
               love for technology and design, we strive to transform businesses
@@ -84,7 +84,7 @@ export default function Who() {
             <div className="lg:w-1/2 w-2/3"></div>
             <div className="lg:w-1/2 w-1/3">
               <div
-                className=" text-[white] 2xl:px-[32px] 2xl:py-[11px] xl:px-[32px] xl:py-[20px] lg:px-[25px] lg:py-[8px] px-[10px] py-[16px]"
+                className="relative text-[white] 2xl:px-[32px] 2xl:py-[11px] xl:px-[32px] xl:py-[20px] lg:px-[25px] lg:py-[8px] px-[10px] py-[16px]"
                 style={{
                   background:
                     "linear-gradient(54.35deg, #FF3D12 0%, #FF7253 79.88%), #292120",

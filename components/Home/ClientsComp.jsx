@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function ClientsComp () {
     return (
         <div
-            className="bg-local lg:w-full w-[70%] lg:rounded-none rounded-[24px] mx-auto"
+            className="bg-local lg:w-full w-[70%] lg:rounded-none my-[50px] rounded-[24px] mx-auto "
             style={{
                 background:
                 'linear-gradient(180deg, rgba(101, 101, 101, 0.32) 0%, rgba(108, 108, 108, 0.2) 100%), linear-gradient(133.47deg, rgba(11, 10, 10, 0) 34.97%, #0B0A0A 111.88%)',
@@ -13,7 +13,7 @@ export default function ClientsComp () {
             }}
         >
         <div
-            className="container flex flex-col mx-auto lg:w-full w-[70%] bg-local lg:rounded-none rounded-[24px]"
+            className="container  flex flex-col mx-auto lg:w-full w-[70%] bg-local lg:rounded-none rounded-[24px]"
         >
                 
                 <div className="flex flex-col justify-center lg:flex-row lg:justify-between">

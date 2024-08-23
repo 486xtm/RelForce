@@ -10,7 +10,7 @@ function PagesMetaHead({ title, keywords, description }) {
 			<meta name="keywords" content={keywords} />
 			<meta name="description" content={description} />
 			<meta charSet="utf-8" />
-			<link rel="icon" href="/images/logo-light.svg" />
+			<link rel="icon" href="/images/who-1.png" />
 			<title>relforce</title>
 		</Head>
 	);

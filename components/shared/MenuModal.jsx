@@ -80,7 +80,7 @@ const MenuModal = ({ showMenu, toggleMenu }) => {
       </div>
 
       <div
-        className={`absolute h-[100%] top-0 left-0 bg-[#061927] w-auto right-0 opacity-95 p-5 shadow-lg rounded-lg ${
+        className={`absolute h-[100%] top-0 left-0 bg-[#0c0c0c] w-auto right-0 opacity-95 p-5 shadow-lg rounded-lg ${
           showMenu ? "block" : "hidden"
         } xl:hidden`}
         style={{ boxShadow: "0 2px 4px #00000080" }}
