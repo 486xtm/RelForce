@@ -20,15 +20,7 @@ export default function PortfolioComp() {
             }}
         >
             <div className="absolute w-[300px] h-[300px] bg-[#FE5A36] blur-[150px] z-10" />
-            <div className="container relative flex flex-col py-10 mx-auto">
-                <div className="flex justify-center lg:justify-normal">
-                    <button 
-                        className=" z-20 text-center text-[20px] mb-5 px-[36px] py-[10px] text-white rounded-[5px] orbitron"
-                        style={{background: 'linear-gradient(180deg, rgba(101, 101, 101, 0.32) 0%, rgba(108, 108, 108, 0.2) 100%)'}}
-                    >
-                        Portfolio
-                    </button>
-                </div>
+            <div className="container relative flex flex-col py-[100px] mx-auto">
                 <div className="flex flex-col mb-10 lg:flex-row">
                     <div
                         className="flex w-full lg:justify-normal lg:mb-0 mb-5 lg:text-left text-center justify-center lg:w-[60%] text-[24px] lg:text-[60px] orbitron leading-tight font-bold text-transparent"

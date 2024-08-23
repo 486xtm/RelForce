@@ -15,14 +15,7 @@ export default function ClientsComp () {
         <div
             className="container flex flex-col mx-auto lg:w-full w-[70%] bg-local lg:rounded-none rounded-[24px]"
         >
-                <div className="flex justify-center mt-8 mb-5 lg:mt-5 lg:justify-normal">
-                    <button 
-                        className=" z-20 text-center text-[12px] lg:text-[20px] px-[36px] py-[10px] text-white rounded-[5px] orbitron"
-                        style={{background: 'linear-gradient(180deg, rgba(101, 101, 101, 0.32) 0%, rgba(108, 108, 108, 0.2) 100%)'}}
-                    >
-                        Our Clients
-                    </button>
-                </div>
+                
                 <div className="flex flex-col justify-center lg:flex-row lg:justify-between">
                     <div className="flex justify-center">
                         <Image 

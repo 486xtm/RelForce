@@ -18,9 +18,6 @@ export default function Experise  () {
       />
       <div className="lg:py-[150px] py-[75px] container mx-auto">
         <div className="text-center">
-          <button className="bg-[#1E1E1E] text-center mb-5 px-[36px] py-[10px] text-[white] rounded-[5px]">
-            Services
-          </button>
 
           <div
             className="lg:text-[60px] text-[24px]  leading-[100%] font-bold text-transparent "

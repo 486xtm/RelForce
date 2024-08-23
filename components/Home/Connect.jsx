@@ -9,10 +9,6 @@ export default function Connect () {
     >
       <div className="lg:py-[150px] py-[75px] container mx-auto">
         <div className="text-center mb-10">
-          <button className="bg-[#1E1E1E] text-center mb-5 px-[36px] py-[10px] text-[white] rounded-[5px]">
-            Contact Us
-          </button>
-
           <div
             className="text-[60px] font-bold text-transparent "
             style={{
