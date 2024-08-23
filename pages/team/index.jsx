@@ -1,6 +1,8 @@
 import PagesMetaHead from "../../components/PagesMetaHead";
 import AppHeader from "../../components/shared/AppHeader";
 import Photos from "../../components/team/Photos";
+import TeamAbout from "../../components/team/About";
+import TeamContact from '../../components/team/Connect';
 export default function Team() {
   return (
     <div>
@@ -18,7 +20,7 @@ export default function Team() {
         >
           <div className="text-center container">
             <span className="orbitron text-[#FE5A36] leading-[100%] font-bold text-[36px] md:text-[75px] lg:text-[100px]">
-              Meet our team
+            Meet our team
             </span>
             <br />
             <br />
@@ -29,6 +31,8 @@ export default function Team() {
         </div>
       </div>
       <Photos/>
+      <TeamAbout/>
+      <TeamContact/>
     </div>
   );
 }
