@@ -38,7 +38,7 @@ const Footer = () => {
               />
             </div>
             <div className="flex mb-8 text-[16px]">
-              <span className={phone ? 'text-center' : ''}>
+              <span className={phone ? 'text-center open-sans' : 'open-sans'}>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s.
               </span>
             </div>
@@ -83,8 +83,8 @@ const Footer = () => {
           </div>
           <div className="flex">
             <div className={`mb-6 w-full ${phone ? 'justify-items-center' : ''}`}>
-              <h3 className={`mb-8 font-semibold lg:text-[32px] text-[20px] ${phone ? 'text-center' : ''}`}>Quick Links</h3>
-              <ul>
+              <h3 className={`mb-8 font-semibold lg:text-[32px] text-[20px] orbitron ${phone ? 'text-center' : ''}`}>Quick Links</h3>
+              <ul className='open-sans'>
                 <li className={`my-6 ${phone ? 'flex justify-center' : ''}`}>
                   <LinkButton1 title={"Services"} footer={"1"} phone={phone} linkname={"\projects"} newop={1} />
                 </li>
@@ -102,8 +102,8 @@ const Footer = () => {
           </div>
           <div className="flex">
             <div className={`mb-6 w-full ${phone ? 'text-center' : ''}`}>
-              <h3 className={`mb-8 font-semibold lg:text-[32px] text-[20px] ${phone ? 'text-center' : ''}`}>Imp Links</h3>
-              <ul>
+              <h3 className={`mb-8 font-semibold lg:text-[32px] text-[20px] orbitron ${phone ? 'text-center' : ''}`}>Imp Links</h3>
+              <ul className='open-sans'>
                 <li className={`my-6 ${phone ? 'flex justify-center' : ''}`}>
                   <LinkButton1 title={"Terms & Conditions"} footer={"1"} phone={phone} linkname={""} />
                 </li>
@@ -120,16 +120,16 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col">
-            <h3 className={`mb-3 font-semibold lg:text-[32px] text-[20px] ${phone ? 'text-center' : ''}`}>Contact</h3>
+            <h3 className={`mb-3 font-semibold lg:text-[32px] text-[20px] orbitron ${phone ? 'text-center' : ''}`}>Contact</h3>
             <div className="flex flex-col">
-              <div className={`flex items-center ${phone ? 'flex-col' : 'lg:my-2 lg:w-full'}`}>
+              <div className={`flex items-center ${phone ? 'flex-col' : 'lg:my-5 lg:w-full'}`}>
                 <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7.58388 9.86395C8.39463 11.3264 9.32906 12.7301 10.5422 14.01C11.7594 15.2978 13.2729 16.4697 15.2321 17.4709C15.3773 17.5416 15.5147 17.5416 15.6384 17.4925C15.8249 17.4218 16.0153 17.2667 16.2018 17.0802C16.3471 16.935 16.5277 16.7033 16.7162 16.4501C17.47 15.4587 18.4024 14.2279 19.7197 14.8443C19.7491 14.858 19.7707 14.8737 19.8002 14.8855L24.1935 17.412C24.2073 17.4199 24.223 17.4336 24.2348 17.4415C24.8139 17.84 25.0534 18.4544 25.0593 19.1513C25.0593 19.86 24.7982 20.657 24.4154 21.3303C23.9089 22.2196 23.1629 22.8085 22.3031 23.1972C21.4845 23.5741 20.5736 23.7763 19.6981 23.9059C18.3239 24.1081 17.0361 23.9785 15.7189 23.5741C14.4311 23.1756 13.1335 22.518 11.7162 21.6425L11.6121 21.5757C10.9623 21.1694 10.2596 20.7355 9.57052 20.2231C7.04992 18.319 4.48024 15.5687 2.80573 12.5416C1.40212 10.0014 0.636519 7.25893 1.05466 4.64606C1.2863 3.21301 1.90075 1.90952 2.97259 1.04969C3.90702 0.295865 5.16536 -0.116383 6.79472 0.0288853C6.98121 0.0426269 7.14807 0.150597 7.23641 0.31157L10.0534 5.07402C10.4657 5.60798 10.5167 6.13801 10.291 6.66804C10.1045 7.10188 9.72757 7.50235 9.21324 7.87534C9.06208 8.0049 8.88148 8.13643 8.69106 8.27385C8.06091 8.73125 7.34438 9.25932 7.58977 9.87965L7.58388 9.86395Z" fill="white"/>
                 </svg>
 
-                <div className={`${phone ? 'text-center mt-4' : 'ml-2'}`}>
-                  <p className={`font-bold ${phone ? 'text-[18px]' : 'text-[20px]'}`}>Phone</p>
-                  <p className={`${phone ? 'text-[14px]' : 'text-[16px]'}`}>+(123) 456 7890</p>
+                <div className={`${phone ? 'text-center mt-4' : 'ml-4'}`}>
+                  <p className={`font-bold orbitron ${phone ? 'text-[18px]' : 'text-[20px]'}`}>Phone</p>
+                  <p className={`open-sans ${phone ? 'text-[14px]' : 'text-[16px]'}`}>+(123) 456 7890</p>
                 </div>
               </div>
               <div className={`flex items-center ${phone ? 'flex-col items-center mt-5' : 'lg:my-5 lg:w-full'}`}>
@@ -137,9 +137,9 @@ const Footer = () => {
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M0.484621 8.70871L22.9456 0.0739441C23.0735 0.010407 23.2178 -0.0129729 23.3593 0.00686937C23.5008 0.0267117 23.633 0.0888501 23.7386 0.185138C23.8441 0.281426 23.9182 0.40737 23.9509 0.546457C23.9837 0.685545 23.9736 0.831284 23.9221 0.964569L15.3284 23.5446C15.2792 23.6745 15.193 23.7871 15.0804 23.8684C14.9678 23.9497 14.8338 23.9961 14.6951 24.002C14.5563 24.0078 14.4189 23.9727 14.2999 23.9012C14.1809 23.8296 14.0855 23.7246 14.0256 23.5993L10.5627 16.4353L17.4358 6.59738L7.61743 13.4509L0.431887 10.0095C0.307115 9.94952 0.202629 9.85434 0.131321 9.73568C0.0600136 9.61702 0.0250037 9.48009 0.0306114 9.34176C0.036219 9.20344 0.0821988 9.06979 0.162878 8.95729C0.243557 8.8448 0.355404 8.75838 0.484621 8.70871Z" fill="white"/>
                 </svg>
 
-                <div className={`${phone ? 'text-center mt-4' : 'ml-2'}`}>
-                  <p className={`font-bold ${phone ? 'text-[18px]' : 'text-[20px]'}`}>Email</p>
-                  <p className={`${phone ? 'text-[14px]' : 'text-[16px]'}`}>email@example.com</p>
+                <div className={`${phone ? 'text-center mt-4' : 'ml-4'}`}>
+                  <p className={`font-bold orbitron ${phone ? 'text-[18px]' : 'text-[20px]'}`}>Email</p>
+                  <p className={`open-sans ${phone ? 'text-[14px]' : 'text-[16px]'}`}>email@example.com</p>
                 </div>
               </div>
               <div className={`${phone ? 'flex-col items-center mt-5' : 'lg:my-5 lg:w-full'}`}>
@@ -147,9 +147,9 @@ const Footer = () => {
                   <svg width="18" height="24" viewBox="0 0 18 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3725 20.7606C12.2807 21.9579 11.0092 23.0301 9.58145 23.8973C9.40567 24.0262 9.16739 24.0419 8.97208 23.9169C6.8627 22.5751 5.09122 20.9637 3.69864 19.2118C1.77676 16.8016 0.567778 14.1298 0.153716 11.5555C-0.268159 8.94616 0.126372 6.43444 1.4252 4.39342C1.93692 3.58678 2.59122 2.85241 3.38809 2.21764C5.22012 0.758656 7.31192 -0.0128288 9.39786 0.0027962C11.4057 0.0184212 13.3881 0.766468 15.101 2.33092C15.7025 2.8778 16.2084 3.50475 16.6225 4.18444C18.019 6.48522 18.3197 9.41881 17.7064 12.3915C17.101 15.329 15.5971 18.3133 13.3725 20.7548V20.7606ZM8.99942 4.64342C11.476 4.64342 13.4818 6.65123 13.4818 9.12584C13.4818 11.6024 11.474 13.6083 8.99942 13.6083C6.52286 13.6083 4.517 11.6024 4.517 9.12584C4.51504 6.64928 6.52286 4.64342 8.99942 4.64342Z" fill="white"/>
                   </svg>
-                  <div className={`${phone ? 'text-center mt-4' : 'ml-2'}`}>
-                    <p className={`font-bold ${phone ? 'text-[18px]' : 'text-[20px]'}`}>Address</p>
-                    <p className={`${phone ? 'text-[14px]' : 'text-[16px]'}`}>Your Address Line Goes here</p>
+                  <div className={`${phone ? 'text-center mt-4' : 'ml-4'}`}>
+                    <p className={`font-bold orbitron ${phone ? 'text-[18px]' : 'text-[20px]'}`}>Address</p>
+                    <p className={`open-sans ${phone ? 'text-[14px]' : 'text-[16px]'}`}>Your Address Line Goes here</p>
                   </div>
                 </div>
               </div>
@@ -157,7 +157,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="pt-6 pb-6 mt-6 text-center border-t border-gray-700">
-          <p className="text-[20px]">&copy; 2024 <b>relforce</b>. All Rights Reserved.</p>
+          <p className="lg:text-[20px] text-[16px] orbitron">&copy; 2024 <b>relforce</b>. All Rights Reserved.</p>
         </div>
       </div>
     </footer>

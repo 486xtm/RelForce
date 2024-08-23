@@ -14,7 +14,7 @@ export default function Home() {
           <AppHeader />
         </div>
         <div
-          className="flex justify-center items-center h-[90vh] mt-[-150px] pt-[150px] w-full"
+          className="flex flow-end flex-col justify-center items-center h-[90vh] mt-[-150px] pt-[150px] w-full"
           style={{
             backgroundImage: `url(/images/back1.png)`,
             backgroundRepeat: "no-repeat",
@@ -48,7 +48,10 @@ export default function Home() {
 								border-2
 								rounded-[5px]
 								px-[18px]
-								py-[10px]
+								lg:py-[10px]
+                py-[7px]
+                text-[12px]
+                lg:text-[15px]
 								gap-[5px]
 								justify-center
 								hover:bg-[#FF3D12]
@@ -87,6 +90,8 @@ export default function Home() {
 								py-[8px]
 								gap-[5px]
 								w-[150px]
+                text-[12px]
+                lg:text-[15px]
 								hover:bg-[#FF3D12]
 								transition
 								duration-300
@@ -96,7 +101,11 @@ export default function Home() {
               Learn More
             </button>
           </div>
+          <div className="orbitron text-[grey] ml-[50%] mt-[100px]">
+            <span className="text-[#FF7253]">01</span> | 02 | 03
+          </div>
         </div>
+          
         <div
           className="lg:flex orbitron lg:py-10 lg:px-0 px-10 "
           style={{
@@ -107,7 +116,7 @@ export default function Home() {
           <div className="container mx-auto lg:flex orbitron lg:py-10 lg:px-0 px-10 ">
             <div className="lg:w-1/3 w-full justify-center items-center p-[40px] h-[250px] flex flex-col">
               <div
-                className="text-[100px] leading-[100%] font-bold text-transparent "
+                className="lg:text-[100px] text-[80px] leading-[100%] font-bold text-transparent "
                 style={{
                   background:
                     "linear-gradient(54.35deg, #FF3D12 0%, #FF7253 79.88%), #FFFFFF",
@@ -123,7 +132,7 @@ export default function Home() {
             </div>
             <div className="lg:w-1/3 w-full lg:border-x-2 lg:border-y-0 border-y-2 border-[#464646] justify-center items-center p-[40px] h-[250px] flex flex-col">
               <div
-                className="text-[100px]  leading-[100%] font-bold overflow-hidden text-transparent"
+                className="lg:text-[100px] text-[80px]  leading-[100%] font-bold overflow-hidden text-transparent"
                 style={{
                   background:
                     "linear-gradient(54.35deg, #FF3D12 0%, #FF7253 79.88%), #FFFFFF",
@@ -134,12 +143,12 @@ export default function Home() {
               </div>
               <br />
               <div className="font-bold text-[25px] text-center leading-[100%] text-[white]">
-                Websites Completed
+                Happy Clients
               </div>
             </div>
             <div className="lg:w-1/3 w-full justify-center items-center p-[40px] h-[250px] flex flex-col">
               <div
-                className="text-[100px] leading-[100%] font-bold text-transparent"
+                className="lg:text-[100px] text-[80px] leading-[100%] font-bold text-transparent"
                 style={{
                   background:
                     "linear-gradient(54.35deg, #FF3D12 0%, #FF7253 79.88%), #FFFFFF",
@@ -150,7 +159,7 @@ export default function Home() {
               </div>
               <br />
               <div className="font-bold text-[25px] text-center leading-[100%] text-[white]">
-                Websites Completed
+                Award Earned
               </div>
             </div>
           </div>

@@ -18,12 +18,12 @@ const MenuModal = ({ showMenu, toggleMenu }) => {
           <div className="flex flex-row ">
             <Image
               src={logoLight}
-              className="inline w-[180px] cursor-pointer lg:block hidden"
+              className="inline w-[200px] cursor-pointer lg:block hidden"
               alt="Logo"
             />
             <Image
               src={logoLight2}
-              className="inline w-[180px] cursor-pointer lg:hidden"
+              className="inline w-[110px] cursor-pointer lg:hidden"
               alt="Logo"
             />
           </div>
@@ -40,7 +40,7 @@ const MenuModal = ({ showMenu, toggleMenu }) => {
 								orbitron
 
 								font-medium
-								text-[17px]
+								text-[10px]
 								text-[#FFF]
 								leading-[20px]
 								bg-[#FE5A36]

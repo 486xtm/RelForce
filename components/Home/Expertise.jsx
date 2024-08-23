@@ -14,14 +14,14 @@ export default function Experise  () {
         backgroundImage: `url(/images/back2.png)`,
       }}
     >
-      <div className="py-[150px] container mx-auto">
+      <div className="lg:py-[150px] py-[75px] container mx-auto">
         <div className="text-center">
           <button className="bg-[#1E1E1E] text-center mb-5 px-[36px] py-[10px] text-[white] rounded-[5px]">
             Services
           </button>
 
           <div
-            className="text-[60px]  leading-[100%] font-bold text-transparent "
+            className="lg:text-[60px] text-[24px]  leading-[100%] font-bold text-transparent "
             style={{
               background:
                 "linear-gradient(54.35deg, #FF3D12 0%, #FF7253 79.88%), #FFFFFF",
@@ -31,7 +31,7 @@ export default function Experise  () {
             Our Expertise at Work
           </div>
         </div>
-        <div className="flex flex-col-reverse lg:flex-row mt-[50px] items-center ">
+        <div className="flex flex-col-reverse lg:flex-row lg:mt-[50px] items-center ">
           <div className="lg:w-1/2 w-full flex flex-col  text-[white]  space-y-5 lg:items-start items-center">
             <div
               className="items-center  justify-between rounded-[10px] px-[38px] py-[26px] hover:w-full w-5/6 flex transition-all expertise"
@@ -39,7 +39,7 @@ export default function Experise  () {
               onMouseLeave={() => setIsHovered1(false)}
             >
               <div>
-                <div className={`${isHovered1? "text-[45px]" : "text-[35px]"} leading-[100%]`}> WebSite Design</div>
+                <div className={`${isHovered1? "lg:text-[45px] text-[20px]" : "lg:text-[35px] text[15px]"} leading-[100%]`}> WebSite Design</div>
                 <div className={`${ isHovered1 ? "text-[13px]":"text-[10px]"} open-sans`}>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. <br />
@@ -98,7 +98,7 @@ export default function Experise  () {
               onMouseLeave={() => setIsHovered2(false)}
             >
               <div>
-                <div className={`${isHovered2? "text-[45px]" : "text-[35px]"} leading-[100%]`}>
+                <div className={`${isHovered2? "lg:text-[45px] text-[20px]" : "lg:text-[35px] text[15px]"} leading-[100%]`}>
                   {" "}
                   Mobile App <br />
                   Development
@@ -161,7 +161,7 @@ export default function Experise  () {
               onMouseLeave={() => setIsHovered3(false)}
             >
               <div>
-                <div className={`${isHovered3? "text-[45px]" : "text-[35px]"} leading-[100%]`}>
+                <div className={`${isHovered3? "lg:text-[45px] text-[20px]" : "lg:text-[35px] text[15px]"} leading-[100%]`}>
                   {" "}
                   E-commerce
                   <br /> Development
@@ -224,7 +224,7 @@ export default function Experise  () {
               onMouseLeave={() => setIsHovered4(false)}
             >
               <div>
-                <div className={`${isHovered4? "text-[45px]" : "text-[35px]"} leading-[100%]`}>Digital Marketing</div>
+                <div className={`${isHovered4? "lg:text-[45px] text-[20px]" : "lg:text-[35px] text[15px]"} leading-[100%]`}>Digital Marketing</div>
                 <div className={`${ isHovered4 ? "text-[13px]":"text-[10px]"} open-sans`}>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. <br />

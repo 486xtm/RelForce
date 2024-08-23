@@ -7,7 +7,7 @@ export default function Connect () {
         backgroundImage: `url(/images/back5.png)`,
       }}
     >
-      <div className="py-[150px] container mx-auto">
+      <div className="lg:py-[150px] py-[75px] container mx-auto">
         <div className="text-center mb-10">
           <button className="bg-[#1E1E1E] text-center mb-5 px-[36px] py-[10px] text-[white] rounded-[5px]">
             Contact Us
@@ -28,34 +28,34 @@ export default function Connect () {
             directly
           </div>
         </div>
-        <div className="w-4/5 text-center mx-auto space-y-[25px] p-[50px] rounded-[10px]  connect-back">
+        <div className="lg:w-4/5 w-full  text-center mx-auto space-y-[25px] lg:p-[50px] p-[10px] py-[50px] rounded-[10px]  connect-back">
           <input
             type="text"
-            className=" text-white transition-colors duration-200 focus:border-[#FE5A36] lg:mr-[2%] lg:w-[49%] w-full px-[12px] bg-[#202020] border-2 border-[#c6c6c6] rounded-[10px] py-[13px] open-sans"
+            className=" text-white transition-colors duration-200 focus:border-[#FE5A36] lg:mr-[2%] lg:w-[49%] w-full px-[12px] bg-[#202020] border-2 border-[#c6c6c6] rounded-[10px] lg:py-[13px] py-[7px] text-[12px] lg:text-[15px] open-sans"
             placeholder="Name"
           />
           <input
             type="text"
-            className="text-white transition-colors duration-200 focus:border-[#FE5A36] lg:w-[49%] w-full px-[12px] bg-[#202020] border-2 border-[#c6c6c6] rounded-[10px] py-[13px] open-sans"
+            className="text-white transition-colors duration-200 focus:border-[#FE5A36] lg:w-[49%] w-full px-[12px] bg-[#202020] border-2 border-[#c6c6c6] rounded-[10px] lg:py-[13px] py-[7px] text-[12px] lg:text-[15px] open-sans"
             placeholder="Email"
           />
           <input
             type="text"
-            className="text-white transition-colors duration-200 focus:border-[#FE5A36] lg:mr-[2%] lg:w-[49%] w-full px-[12px] bg-[#202020] border-2 border-[#c6c6c6] rounded-[10px] py-[13px] open-sans"
+            className="text-white transition-colors duration-200 focus:border-[#FE5A36] lg:mr-[2%] lg:w-[49%] w-full px-[12px] bg-[#202020] border-2 border-[#c6c6c6] rounded-[10px] lg:py-[13px] py-[7px] text-[12px] lg:text-[15px] open-sans"
             placeholder="Phone"
           />
           <input
             type="text"
-            className="text-white transition-colors duration-200 focus:border-[#FE5A36] lg:w-[49%] w-full px-[12px] bg-[#202020] border-2 border-[#c6c6c6] rounded-[10px] py-[13px] open-sans"
+            className="text-white transition-colors duration-200 focus:border-[#FE5A36] lg:w-[49%] w-full px-[12px] bg-[#202020] border-2 border-[#c6c6c6] rounded-[10px] lg:py-[13px] py-[7px] text-[12px] lg:text-[15px] open-sans"
             placeholder="Company"
           />
           <input
             type="text"
-            className="text-white transition-colors duration-200 focus:border-[#FE5A36] w-full px-[12px] bg-[#202020] border-2 border-[#c6c6c6] rounded-[10px] py-[14px] open-sans"
+            className="text-white transition-colors duration-200 focus:border-[#FE5A36] w-full px-[12px] bg-[#202020] border-2 border-[#c6c6c6] rounded-[10px] lg:py-[14px] py-[8px] lg:text-[15px] text-[12px] open-sans"
             placeholder="Subject"
           />
           <textarea
-            className="text-white focus:border-[#FE5A36] w-full px-[12px] bg-[#202020] border-2 border-[#c6c6c6] rounded-[10px] py-[13px] open-sans"
+            className="text-white focus:border-[#FE5A36] w-full px-[12px] bg-[#202020] border-2 border-[#c6c6c6] rounded-[10px] lg:py-[13px] py-[7px] text-[12px] lg:text-[15px] open-sans"
             placeholder="Type your message here..."
             cols="30" // Set the number of columns
             rows="4" // Optional: Set the number of rows
@@ -77,7 +77,6 @@ export default function Connect () {
 								hover:bg-[#FF3D12]
 								transition
 								duration-300
-                mr-4
 							"
           >
             <div className="flex gap-2">

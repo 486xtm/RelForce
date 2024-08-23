@@ -12,12 +12,15 @@ export default function Who() {
         backgroundImage: `url(/images/back4.png)`,
       }}
     >
-          <div className="absolute w-[500px] h-[500px] bg-[#FE5A36] blur-[250px] z-10 whoblur"
+          <div className="lg:block hidden absolute w-[400px] h-[400px] bg-[#FE5A36] blur-[250px]  whoblur"
           />
-      <div className="py-[150px] container mx-auto">
+      <div className="lg:py-[150px] py-[75px] container mx-auto">
         <div className="flex lg:flex-row flex-col-reverse gap-[50px]">
-          <div className="w-full ">
-            <Image className="lg:w-full w-4/5 mx-auto" src={who} />
+          <div className="w-full items-center flex flex-col ">
+          <div className="lg:hidden block absolute w-[250px] h-[250px] bg-[#FE5A36] blur-[100px]  whoblur"
+          />
+            <Image className="lg:w-full w-4/5 mx-auto relative" src={who} />
+            
           </div>
           <div className="w-full itmes-center justify-center space-y-5 text-center lg:text-left lg:ml-[-100px]">
             <button className="bg-[#1E1E1E] text-center px-[36px] py-[10px] lg:text-[10px] lg:px-[20px] lg:py-[10px] xl:text-[14px] xl:px-[36px] xl:py-[10px] text-[white] rounded-[5px]">
